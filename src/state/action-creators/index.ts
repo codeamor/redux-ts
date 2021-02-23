@@ -2,6 +2,7 @@ import axios from "axios";
 import { Dispatch } from "redux";
 import { ActionType } from "../action-types";
 import { Action } from "../actions";
+import "redux-thunk";
 
 export const searchRepositories = (term: string) => {
   return async (dispatch: Dispatch<Action>) => {
@@ -19,7 +20,7 @@ export const searchRepositories = (term: string) => {
         }
       );
       const names = data.objects.map((result: any) => {
-        return result.pakage.name;
+        return result.package.name;
       });
 
       dispatch({
