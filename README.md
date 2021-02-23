@@ -13,7 +13,9 @@ npmjs.org 에서 패키지 검색 후 출력
 
 ## 느낀점
 
-- rootState, useSelector, useDispatch 타이핑이 기존과 조금 다릅니다.
+- ts를 덧붙이면서 폴더 구조를 잡는 게 더 힘든 것 같습니다. 연습이 많이 필요합니다.
+
+- useSelector 타이핑이 기존과 조금 다릅니다.
   [공식 문서](https://react-redux.js.org/using-react-redux/static-typing)를 참고하였습니다.
 
 - Redux-thunk 타이핑이 조금 난이도가 있는데, 도입하지는 못했습니다.
